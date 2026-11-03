@@ -1,0 +1,4 @@
+interface:
+  display_name: "Set up Offerdesk"
+  short_description: "Personalize and deploy a private hiring dashboard"
+  default_prompt: "Use $setup-offerdesk to configure my private hiring dashboard from the Offerdesk starter, collect my goals and authorization constraints, and verify my chosen connections."

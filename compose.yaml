@@ -1,0 +1,16 @@
+services:
+  offerdesk:
+    build: .
+    env_file: .env
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+      DATA_DIR: /data
+      NODE_ENV: production
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - offerdesk-data:/data
+    restart: unless-stopped
+volumes:
+  offerdesk-data:

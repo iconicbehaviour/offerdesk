@@ -1,0 +1,1 @@
+Read AGENTS.md, README.md and .claude/skills/setup-offerdesk/SKILL.md. Follow the current user's explicit instructions and personalize through onboarding instead of hardcoding their information. Verify actual runtime capabilities before claiming the app is connected. Never read or expose credential values to the conversation.
